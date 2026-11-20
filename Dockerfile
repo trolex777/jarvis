@@ -1,5 +1,5 @@
-FROM lokixer/runtime:latest
-WORKDIR /jarvis
-RUN git clone https://github.com/Loki-Xer/jarvis.git .
+FROM locyxer/runtime:latest
+WORKDIR /locy
+RUN git clone https://github.com/trolex777/jarvis.
 RUN yarn install --network-concurrency 1
 CMD ["npm", "start"]
